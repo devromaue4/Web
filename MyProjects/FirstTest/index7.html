@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles4.css" type="text/css">
+	<title>Знакомство с формами</title>
+</head>
+<body>
+	<div class="content">
+		<h1>Знакомство с формами</h1><hr>
+		<h2>Форма входа</h2>
+		<form action="/echo" method="post">
+            <label for="login-field">Ваш логин</label>
+            <input type="text" name="login" id="login-field"><br>
+            <label for="password-field">Ваш пароль</label>
+            <input type="password" name="password" id="password-field"><br>
+			<input type="submit" name="submit" id="submit-field" value="Войти">
+		</form>
+		<h2>Коментарии (многострочное поле ввода)</h2>
+		<form action="/echo" method="post">
+			<textarea name="comment" id="comment-field" rows="4" cols="40">текст комментария</textarea><br>
+			<input type="submit" name="submit" id="send-field" value="Отправить">
+			<h2>Регистрация</h2>
+			<p>Множество полей и как всегда в конце формы регистрации вопрос:</p>		
+			<input type="checkbox" checked name="subscribe" id="subscribe-field">
+			<label for="subscribe-field">Подписать вас на рассылку?</label><br>
+			<input type="submit" value="Отправить"><br>
+			<h2>Переключатели</h2>
+			<input type="radio" name="question1" id="radio_1" value="p"><br>
+			<input type="radio" checked name="question1" id="radio_2" value="b">
+			<h2>Выпадающий список или «селект»</h2>
+			<p>Часто выпадающие списки используют для ввода дат.</p>
+			<p><em>Ваш год рождения</em></p>
+			<select name="year">
+                <option value="2000">2000 год</option>
+                <option value="2001">2001 год</option>
+            </select>
+			<h2>Мультиселект</h2>
+			<p>В мультиселекте можно выбрать несколько вариантов, щелкая по ним, зажав клавишу Ctrl.</p>
+            <p><em>Любимые дни недели</em></p>
+            <select multiple name="days[]" size="7">
+                <option>Понедельник</option>
+                <option>Вторник</option>
+                <option>Среда</option>
+                <option>Четверг</option>
+                <option>Пятница</option>
+                <option>Суббота</option>
+                <option selected>Воскресенье</option>
+            </select><br>
+            <input type="submit" value="Отправить">
+		</form>
+		<form enctype="multipart/form-data" action="/echo" method="post">
+			<h2>Поле для загрузки файлов</h2>
+			<input type="file" name="avatar"><br>
+			<input type="submit" value="Загрузить">
+		</form>
+	</div>
+	<div class="footer">
+		<hr><p>Copyright &copy; 2015 Roman P. All rights reserved</p>
+	</div>
+</body>
+</html>

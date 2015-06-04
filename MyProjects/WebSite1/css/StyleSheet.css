@@ -1,0 +1,42 @@
+﻿body {
+}
+
+.test{
+    width:120px;
+    background-color:#ccc;
+    padding:10px;
+    margin:10px;
+    box-shadow:0 0 2px;
+}
+
+p{
+    box-shadow:0 0 2px;
+    padding:10px;
+    margin:10px;
+    background-color:#00ff90;
+    width:320px;
+}
+
+.test-list{
+    list-style:none;
+    background-color:#0094ff;
+    width:200px;
+    padding:0;
+    margin:0;
+}
+
+.test-list li{
+    border:2px solid black;
+    margin-bottom:-2px;
+}
+
+.test-list a{
+    display:block;
+    text-decoration:none;
+    padding:10px 10px 10px 20px;
+    color:white;
+}
+
+.test-list a:hover{
+    background-color:#00ff90;
+}

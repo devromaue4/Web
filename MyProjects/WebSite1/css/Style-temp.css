@@ -1,0 +1,56 @@
+﻿body {
+    margin:0;
+}
+
+.outline{outline:1px dashed red;}
+
+.positioner{
+    width:1100px;
+    /*height:100px;*/
+    margin:0 auto;
+    padding-top:20px;
+}
+
+.block{
+    width:100%;
+    height:200px;
+    background-color:#ccc;
+}
+
+.logo{
+    width:210px;
+    height:80px;
+    background:url(../images/firstverst1/temp/logo-icon.png) no-repeat;
+    padding-left:42px;
+    /*padding-top:5px;*/
+
+    font-size: 28px;
+    font-weight:bold;
+}
+
+.logo p{
+    margin:0;
+}
+
+.main{
+    width:233px;
+    height:64px;
+    background:url(../images/firstverst1/temp/features.png) no-repeat;
+    /*margin:0 auto;*/
+    /*margin-top:140px;*/
+
+    /*position:relative;*/
+    position:absolute;
+    top:150px;
+    left:433px;
+}
+
+.relative{
+    position:relative;
+}
+
+.block-1{
+    background-color:white;
+}
+.block-2{
+}

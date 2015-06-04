@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Изучение JavaScript</title>
+    <link href="css/style-js-adv.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/js-adv.js"></script>
+
+</head>
+<body>
+    <h1>JavaScript Advanced</h1>
+    <div class="content"></div>
+    <script>
+
+        function Rectangle(w, h) {
+            this.width = w; this.height = h;
+        }
+
+        Rectangle.prototype.getAria = function () {
+            return this.width * this.height;
+        }
+        Rectangle.prototype.toString = function () {
+            return "Прямоугольник W:" + this.width + " H:" + this.height;
+        }
+
+        var rect1 = new Rectangle(100, 200);
+        var rect2 = new Rectangle(100, 200);
+
+        document.write(rect1.hasOwnProperty("width1") + "<br/>");
+
+        document.write(rect1 + "<br/>");
+        document.write(rect2.toString() + "<br/>");
+        document.write(rect2.valueOf() + "<br/>");
+
+    </script>
+</body>
+</html>

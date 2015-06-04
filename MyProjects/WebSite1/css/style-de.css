@@ -1,0 +1,530 @@
+﻿body {
+    font-size:16px;
+    font-family:"PT Sans", sans-serif;
+    /*background-color:#bdc3c7;*/
+}
+
+h1, h2, .copyright{
+    text-align:center;
+    color:#3090e1;
+}
+
+.content-center{
+    background-color:white;
+    padding:10px 40px;
+    width:60%;
+    margin:0 auto;
+    box-shadow:0 0 10px #ccc;
+}
+
+.copyright{
+    background:#ccc;
+    padding:10px;
+}
+
+.share {
+    width:270px;
+    background:#ecf0f1;
+    padding:10px;
+    padding-left:20px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.share  b{
+    margin-right:15px;
+    color:#7f8c8d;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+
+.social{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:#bdc3c7;
+    margin-right:10px;
+    vertical-align:middle;
+}
+
+/* 2 */
+.share-2 {
+    width:270px;
+    background:#ecf0f1;
+    padding:10px;
+    padding-left:20px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.share-2  b{
+    margin-right:15px;
+    color:#7f8c8d;
+    font-weight:normal;
+    text-transform:uppercase;
+}
+
+.share-2 .social{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:#bdc3c7;
+    margin-right:10px;
+    vertical-align:middle;
+    background-image:url(../images/social.png);
+    background-repeat:no-repeat;
+}
+
+.share-2 .social-vk{
+    background-color:#6D8FB3;
+    background-position:0 0;
+}
+.share-2 .social-fb{
+    background-color:#526da3;
+    background-position:-40px 0;
+}
+.share-2 .social-tw{
+    background-color:#73bfe6;
+    background-position:-80px 0;
+}
+
+/*Переключатель страниц*/
+.paginator{
+    width:280px;
+    padding:10px;
+    margin:30px auto;
+    white-space:nowrap;
+    background:#ecf0f1;
+}
+.paginator a,
+.paginator span{
+    display:inline-block;
+    height:40px;
+    min-width:20px;
+    padding:0 10px;
+    background:#95a5a6;
+}
+
+/*Переключатель страниц 2*/
+.paginator-2{
+    width:280px;
+    padding:10px;
+    margin:30px auto;
+    white-space:nowrap;
+    background:#ecf0f1;
+}
+.paginator-2 a,
+.paginator-2 span{
+    display:inline-block;
+    height:40px;
+    min-width:20px;
+    padding:0 10px;
+    background:#95a5a6;
+    vertical-align:middle;
+    text-align:center;
+    line-height:40px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/*Переключатель страниц 3*/
+.paginator-3{
+    width:280px;
+    padding:10px;
+    margin:30px auto;
+    white-space:nowrap;
+    background:#ecf0f1;
+}
+.paginator-3 a,
+.paginator-3 span{
+    display:inline-block;
+    height:40px;
+    min-width:20px;
+    padding:0 10px;
+    background:#95a5a6;
+    vertical-align:middle;
+    text-align:center;
+    line-height:40px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.paginator-3 .prev{
+    text-indent:-1000px;
+    margin-right:20px;
+    background-image:url(../images/arrows.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+.paginator-3 .next{
+    text-indent:-1000px;
+    margin-left:20px;
+    background-image:url(../images/arrows.png);
+    background-repeat:no-repeat;
+    background-position:0 -40px;
+}
+
+/*Переключатель страниц 4*/
+.paginator-4{
+    width:280px;
+    padding:10px;
+    margin:30px auto;
+    white-space:nowrap;
+    background:#ecf0f1;
+}
+.paginator-4 a,
+.paginator-4 span{
+    display:inline-block;
+    height:40px;
+    min-width:20px;
+    padding:0 10px;
+    background:#95a5a6;
+    vertical-align:middle;
+    text-align:center;
+    line-height:40px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.paginator-4 .prev{
+    text-indent:-1000px;
+    margin-right:20px;
+    background-image:url(../images/arrows.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+.paginator-4 .next{
+    text-indent:-1000px;
+    margin-left:20px;
+    background-image:url(../images/arrows.png);
+    background-repeat:no-repeat;
+    background-position:0 -40px;
+}
+
+.paginator-4 .current{
+    background:#16a085;
+}
+.paginator-4 .disabled{
+    opacity:0.3;
+}
+.paginator-4 a:hover{
+    background-color:#2ecc71;
+}
+
+/*Переключатель страниц 5*/
+.paginator-5{
+    width:280px;
+    padding:10px;
+    margin:30px auto;
+    white-space:nowrap;
+    background:#ecf0f1;
+}
+.paginator-5 a,
+.paginator-5 span{
+    display:inline-block;
+    height:40px;
+    min-width:20px;
+    padding:0 10px;
+    background:#95a5a6;
+    vertical-align:middle;
+    text-align:center;
+    line-height:40px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.paginator-5 .prev{
+    text-indent:-1000px;
+    margin-right:20px;
+    background-image:url(../images/arrows.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+.paginator-5 .next{
+    text-indent:-1000px;
+    margin-left:20px;
+    background-image:url(../images/arrows.png);
+    background-repeat:no-repeat;
+    background-position:0 -40px;
+}
+
+.paginator-5 .current{
+    background:#16a085;
+}
+.paginator-5 .disabled{
+    opacity:0.3;
+}
+.paginator-5 a:hover{
+    background-color:#2ecc71;
+}
+
+
+/* Пример */
+.cart{
+    padding:5px 20px;
+    margin:0 auto;
+    background:#1abc9c;
+    color:white;
+    width:200px;
+}
+.cart .social{
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background:#16a085;
+    margin-top:10px;
+    margin-right:5px;
+    margin-bottom:15px;
+    background-image:url(../images/social-challenge.png);
+    background-repeat:no-repeat;
+}
+.cart .social-fb{
+    background-position:0 0;
+}
+.cart .social-tw{
+    background-position:-30px 0;
+}
+.cart .social-gl{
+    background-position:-60px 0;
+}
+
+
+/* Контакты */
+.contacts{
+    font-family:"PT Sans", sans-serif;
+    font-size:14px;
+    color:#777777;
+
+    width:250px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.contacts .title{
+    font-size:20px;
+    font-weight:bold;
+    color:#7f8c8c;
+    margin-bottom:20px;
+}
+.contacts .item{
+    position:relative;
+    padding-left:30px;
+    margin-bottom:10px;
+}
+
+/* Контакты-2 */
+.contacts-2{
+    font-family:"PT Sans", sans-serif;
+    font-size:14px;
+    color:#777777;
+
+    width:250px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.contacts-2 .title{
+    font-size:20px;
+    font-weight:bold;
+    color:#7f8c8c;
+    margin-bottom:20px;
+}
+.contacts-2 .item{
+    position:relative;
+    padding-left:30px;
+    margin-bottom:10px;
+}
+
+.contacts-2 .icon{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:22px;
+    height:32px;
+    background-image:url(../images/contacts.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+
+/* Контакты-3 */
+.contacts-3{
+    font-family:"PT Sans", sans-serif;
+    font-size:14px;
+    color:#777777;
+
+    width:250px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.contacts-3 .title{
+    font-size:20px;
+    font-weight:bold;
+    color:#7f8c8c;
+    margin-bottom:20px;
+}
+.contacts-3 .item{
+    position:relative;
+    padding-left:30px;
+    margin-bottom:10px;
+}
+
+.contacts-3 .icon{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:22px;
+    height:32px;
+    background-image:url(../images/contacts.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+
+.contacts-3 .icon-location{
+    background-position:0 0;
+}
+.contacts-3 .icon-phone{
+    background-position:-30px 0;
+}
+.contacts-3 .icon-email{
+    background-position:-60px 0;
+}
+
+.contacts-3 a{
+    color:#e2534b;
+}
+
+
+/* Комментарии */
+.comment{
+    font-family:"PT Sans", sans-serif;
+    font-size:14px;
+    color:#777777;
+
+    position:relative;
+    margin-left:50px;
+    margin-top:90px;
+    margin-right:20px;
+}
+.comment-avatar{
+    width:70px;
+    height:70px;
+    background:#7f8c8c;
+    background-image:url(../images/avatar.png);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    position:absolute;
+    top:0;
+    left:-40px;
+}
+.comment-author{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:5px;
+    padding-left:45px;
+    padding-right:20px;
+}
+.comment-text{
+    padding:12px;
+    background-color:#f8f8f8;
+    border-bottom:5px solid #e5e6e6;
+    padding-left:45px;
+}
+.comment-date{
+    font-size:12px;
+    color:#bdc3c7;
+    margin-top:5px;
+}
+.comment-reply{
+    position:absolute;
+    top:0;
+    right:0;
+    width:15px;
+    height:15px;
+    background-image:url(../images/reply.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+
+
+/* анонс поста */
+.post-stats .icon{
+    width:15px;
+    height:15px;
+    position:relative;
+    top:5px;
+    display:inline-block;
+    background-image:url(../images/post-challenge.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+
+.post-stats .icon-comments{
+    background-position:-20px 0;
+}
+
+.post{
+    font-size:12px;
+    font-family:"Arial", sans-serif;
+    line-height:1.2;
+    color:#7f8c8d;
+    background:#ecf0f1;
+    width:320px;
+    height:300px;
+    position:relative;
+}
+.post-title{
+    color:#2980b9;
+    font-size:20px;
+    padding-left:75px;
+}
+.post-date{
+    font-size:14px;
+    font-weight:bold;
+    background:#ffffff;
+    border-bottom:5px solid #bdc3c7;
+    padding:20px 10px;
+    position:absolute;
+    top:0px;
+}
+.post-author{
+    padding-top:5px;
+    padding-left:75px;
+}
+.post-author a{
+    text-decoration:none;
+    color:#2980b9;
+}
+
+.post-stats{
+    position:relative;
+    /*outline:1px dashed red;*/
+    display:inline;
+    left:65px;
+    margin-left:10px;
+}
+.post-stats a{
+    text-decoration:none;
+    color:#2980b9;
+}
+.post-text{
+    background:#ffffff;
+    padding:10px 15px;
+    padding-right:25px;
+    margin:10px;
+    margin-left:75px;
+    margin-top:20px;
+    border-bottom:5px solid #bdc3c7;
+}
+.post-type{
+    width:56px;
+    height:55px;
+    background-image:url(../images/quotes.png);
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-color:#7f8c8d;
+    border-bottom:5px solid #bdc3c7;
+    position:absolute;
+    top:70px;
+}

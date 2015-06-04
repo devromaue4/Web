@@ -1,0 +1,248 @@
+
+.center{
+	text-align:center;
+}
+
+.outline{
+	margin:5px;
+	padding:5px;
+	background:rgba(0,0,0,0.1);
+	border:1px dotted #666;
+}
+
+.column{
+	display:inline-block;
+}
+
+.block-relative{
+    position:relative;
+    top:10px;
+    padding:10px;
+    margin-bottom:20px;
+    background:#3A78A1;
+    color:white;
+    left:-10px;
+    height:100px;
+}
+
+.block{
+    margin-bottom:20px;
+    padding:10px;
+    background:#3A78A1;
+    color:white;
+}
+.block-shadow{    
+    background:#ccc;
+}
+body{
+    padding:20px;
+}
+
+.frame{
+    display:inline-block;
+    margin:10px;
+    border-radius:6px;
+    background-color:#27AE60;
+}
+.frame img{
+    display:block;
+    border-radius:5px;
+    position:relative;
+    top:-5px;
+    left:-5px;
+}
+
+.block-absolute{
+    padding:10px;
+    margin-bottom:20px;
+    background:red;
+    color:white;
+    opacity:0.5;
+    position:absolute;
+}
+.block-a{
+    margin-bottom:20px;
+    padding:10px;
+    background:#3A78A1;
+    color:white;
+    text-align:center;
+}
+
+.inline-absolute{
+    background:red;
+    color:white;
+    opacity:0.5;
+    position:absolute;
+    width:200px;
+    height:100px;
+}
+
+.block-absolute-a{
+    position:absolute;
+    width:100px;
+    padding:10px;
+    margin-bottom:20px;
+    background:red;
+    color:white;
+    opacity:0.5;
+    left:-50px;
+}
+
+/*****************************************************/
+/*body{
+    margin:10px;
+    padding:20px;
+    border:1px dotted #999;
+    color:white;
+    position:relative;
+}*/
+.block-1-r{
+    padding:10px;
+    min-height:100px;    
+    background:#3A78A1;
+    position:relative;
+}
+.block-2-r{
+    padding:10px;
+    min-height:100px;
+    background:#27AE60;
+    position:relative;
+}
+.block-absolute-1{
+    position:absolute;
+    right:10px;
+    top:10px;
+    padding:10px;
+    background:#E74C3C;
+    font-family:"Courier New", monospace;
+    font-size:12px;
+    opacity:0.8;
+}
+
+.block-absolute-c{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:#E74C3C;
+    color:white;
+    text-align:center;
+    left:0;
+    bottom:0;
+}
+.block-c{
+    position:relative;
+    display:inline-block;
+    width:75px;
+    height:100px;
+    padding:10px;
+    margin:10px;
+    background:#3A78A1;
+}
+.block-1-c{
+    width:150px;
+    height:200px;
+}
+
+.inline-absolute-s{
+    background:#E74C3C;
+    opacity:0.8;
+    position:absolute;
+    margin-bottom:-15px;
+    margin-left:15px;
+}
+.block-nto{
+    padding:20px;
+    margin:10px;
+    color:white;
+    background:#3A78A1;
+}
+
+/*************************************************/
+.achievment{
+    position:relative;
+    width:200px;
+    margin-bottom:20px;
+    min-height:50px;
+    padding:10px;
+    border:1px solid #e5e5e5;
+    border-radius:4px;
+    padding-left:70px;
+}
+.badge{
+    width:44px;
+    height:44px;
+    border:3px solid #e5e5e5;
+    border-radius:4px;
+    background-color:#7fc3e5;
+    background-image:url('https://htmlacademy.ru/themes/htmlacademy/img/icons/medal.png');
+    position:absolute;
+    left:10px;
+}
+.title{
+    font-weight:bold;
+    font-size:15px;
+    margin-bottom:3px;
+}
+.description{
+    color:#666;
+    font-size:12px;
+}
+body{
+    font-family:Helvetica,Arial,sans-serif;
+}
+
+/************************************/
+.block-fixed{
+    padding:10px;
+    margin-bottom:20px;
+    background:red;
+    color:white;
+    opacity:0.5;
+    position:fixed;
+    left:10px;
+    top:10px;/**/
+}
+.block-f{
+    margin-bottom:20px;
+    padding:10px;
+    background:#3A78A1;
+    color:white;
+    min-height:100px;
+}
+
+/************************************/
+body{
+    padding:20px;
+    margin:0;
+}
+
+.block-1-z{
+    height:200px;
+    width:200px;
+    background:#3A78A1;
+    opacity:0.9;
+    position:relative;
+    z-index:200;
+}
+.block-2-z{
+    position:absolute;
+    bottom:-3750px;
+    height:150px;
+    width:150px;
+    background:#E74C3C;
+    opacity:0.9;
+    z-index:100;
+}
+.block-3-z{
+    position:absolute;
+    bottom:-3670px;
+    height:100px;
+    width:100px;
+    background:#27AE60;
+}
+.block-z{
+    margin-bottom:20px;
+    padding:10px;
+    color:white;
+    text-align:right; 
+}

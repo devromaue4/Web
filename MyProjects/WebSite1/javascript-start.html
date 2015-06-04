@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Изучение JavaScript</title>
+    <link href="css/style-js.css" rel="stylesheet" />
+    <!--<script type="text/javascript" src="js/script.js"></script>-->
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.content').mouseover(function (e) {
+                console.log('clicked', e)
+                $(this).css('background-color', 'red').animate(
+                    {
+                        height: '180px',
+                        width: '180px'
+                    },
+                    500).hide('slow');
+
+            });
+            $('.content').mouseleave(function (e) {
+                console.log('mouseleave', e)
+                $(this).css('background-color', 'red').animate(
+                    {
+                        height: '80px',
+                        width: '80px'
+                    },
+                    200).show();
+
+            });
+        });   
+       
+    </script>
+</head>
+<body>
+	<h1>Клиентский JavaScript</h1>
+    <div class="content"></div>
+    
+</body>
+</html>

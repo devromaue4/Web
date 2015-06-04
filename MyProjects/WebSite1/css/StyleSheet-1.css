@@ -1,0 +1,1081 @@
+﻿body{
+    font-family:'PT Sans', sans-serif;
+    padding:10px;
+}
+
+h1{
+    text-align:center;
+}
+
+.container{
+    width:300px;
+    margin:10px auto;
+}
+
+.block{
+   background:rgba(255, 234, 171, 0.5);
+   border:2px dashed #ccc;
+   padding:10px;
+   margin-bottom:10px;
+   color:#CC0000;
+}
+
+.column1{
+    float:left;
+    width:120px;
+    min-height:50px;
+}
+
+.column2{
+    float:right;
+    width:120px;
+    min-height:50px;
+}
+
+.column3{
+    clear:both;
+    width:150px;
+    min-height:50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* ******************************************  */
+.block-2{
+   background:rgba(255, 234, 171, 0.5);
+   border:2px dashed #ccc;
+   padding:10px;
+   margin-bottom:10px;
+   color:#CC0000;
+}
+
+.column2-1 {
+    float:left;
+    width:65px;
+    min-height:50px;
+    margin-right:9px;
+}
+
+.column2-2 {
+    float:left;
+    width:80px;
+    min-height:50px;
+}
+
+.column2-3 {
+    float:right;
+    width:65px;
+    min-height:50px;
+}
+
+.footer{
+    clear:both;
+}
+
+/* ================================================ */
+.container-2{
+    width:400px;
+    padding:10px;
+    margin:20px auto;
+    box-shadow:0 0 2px #ccc;
+}
+
+.block-base-1{
+    border:2px solid #34495e;
+    padding:10px;
+    background:#3498db;
+    color:white;
+    width:80px;
+}
+
+.block3-1{
+    float:left;
+    margin-right:10px;
+}
+
+.container-2 img{
+    float:left;
+    margin-right:10px;
+}
+
+.block3-2{
+    float:right;
+    margin-left:10px;
+}
+
+/* ================================================ */
+.block-base-2{
+    border:2px solid #34495e;
+    padding:10px;
+    background:#3498db;
+    color:white;
+}
+
+.block4-1{
+    float:left;
+    width:100px;
+}
+
+.block4-2{
+    float:right;
+    width:100px;
+}
+
+/* ========================= Выпадание из родителя ======================= */
+.block-base-3{
+    width:100px;
+    border:2px solid #34495e;
+    color:white;
+    background:#3498db;
+    padding:10px;
+    margin-bottom:10px;
+} 
+
+.columns-container{
+    background:#27ae60;
+    border:2px solid #34495e;
+    padding:10px;
+}
+
+.block5-1{
+    float:left;
+    margin-right:10px;
+    height:100px;
+}
+
+.block5-2{
+    float:left;
+}
+
+.block5-3{
+    float:right;
+}
+
+/* ================================================ */
+.container-3{
+    width:400px;
+    padding:10px;
+    min-height:100px; /* прячем эффект выпадания флоатов */
+    margin:20px auto;
+    box-shadow:0 0 2px #ccc;
+}
+
+.block-base-4{
+    background:#3498db;
+    border:2px solid #34495e;
+    padding:10px;
+    margin-bottom:10px;
+    color:white;
+} 
+
+.block6-1{
+    float:left;
+    margin-right:10px;
+}
+.block6-2{
+    float:left;
+    margin-right:10px;
+}
+.block6-3{
+    float:left;
+}
+
+.block6-4{
+    float:right;
+    margin-left:10px;
+}
+.block6-5{
+    float:right;
+    margin-left:10px;
+}
+.block6-6{
+    float:right;
+}
+
+/* ========================== 7 ====================== */
+.container-7{
+    width:400px;
+    padding:10px;
+    min-height:150px; /* прячем эффект выпадания флоатов */
+    margin:20px auto;
+    box-shadow:0 0 2px #ccc;
+}
+
+.block-base-7{
+    background:#3498db;
+    border:2px solid #34495e;
+    padding:10px;
+    margin-bottom:10px;
+    color:white;
+} 
+
+
+.block7-1,
+.block7-2,
+.block7-3{
+    float:left;
+    margin-right:10px;
+    width:95px;
+}
+
+.block7-4,
+.block7-5,
+.block7-6{
+    float:right;
+    margin-left:10px;
+    width:95px;
+}
+
+.block7-1{
+    width:200px;
+    height:50px;
+}
+.block7-4{
+    margin-left:30px;
+    height:50px;
+}
+.block7-6 {
+    width: 300px;
+}
+
+
+/* ========================== Puzzle ====================== */
+
+.puzzle{
+    width:300px;
+    margin:0 auto;
+    padding-top:5px;
+}
+.puzzle div{
+    margin-right:5px;
+    margin-bottom:5px;
+}
+.block-p-1{
+    float:left;
+    width:70px;
+    height:220px;
+    background:#3498DB;
+}
+.block-p-2{
+    float:right;
+    width:220px;
+    height:70px;
+    background:#3498DB;
+}
+.block-p-3{
+    height:70px;
+    width:70px;
+    background:#8e44ad;
+}
+.block-p-4{
+    float:left;
+    width:70px;
+    height:145px;
+    background:#e74c3c;
+}
+.block-p-5{
+    float:right;
+    width:70px;
+    height:145px;
+    background:#e74c3c;
+}
+.block-p-6{
+    float:right;
+    width:70px;
+    height:70px;
+    background:#f1c40f;
+}
+.block-p-7{
+    float:right;
+    width:145px;
+    height:70px;
+    background:#2ECC71;
+}
+.block-p-8{
+    float:left;
+    width:145px;
+    height:70px;
+    background:#2ECC71;
+}
+
+/* ========================== 8 ====================== */
+
+.container-8{
+    border:1px solid #ccc;
+    width:400px;
+    padding:10px;
+    margin:20px auto;
+    min-height:150px; /* Прячем эффект выпадания флоатов */
+}
+
+.block-base-8{
+    background:#3498db;
+    border:2px solid #34495e;
+    padding:10px;
+    margin-bottom:10px;
+    color:white;
+    width:80px;
+    
+}
+
+.block8-1,
+.block8-2,
+.block8-3{
+    float:left;
+    margin-right:10px;
+}
+
+.block8-4,
+.block8-5,
+.block8-6{
+    float:right;
+    margin-left:10px;
+}
+
+.block8-2{
+    clear:both;
+}
+.block8-5{
+    clear:both;
+}
+
+/* ========================== 9 ====================== */
+pre{
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius:4px;
+    background-color:#f5f5f5;
+    font-size: 14px;
+	line-height: 20px;
+}
+
+.container-9 {
+    box-shadow:0 0 2px #ccc;
+    padding:10px;
+    width:400px;
+    margin:20px auto;
+}
+
+.columns-container-9 {
+    border:2px solid #34495e;
+    background:#ecf0f1;
+    padding:10px;
+}
+
+.column-9{
+    border:2px solid #34495e;
+    background:#3498db;
+    padding:10px;
+    min-height:100px;
+    width:150px;
+    color:white;
+}
+
+.column-9-1{
+    float:left;
+}
+.column-9-2{
+    float:right;
+}
+
+.clearfix-9{
+    background:red;
+    height:0;
+    clear:both;
+}
+
+/* ========================== 10 ====================== */
+.container-10 {
+    box-shadow:0 0 2px #ccc;
+    padding:10px;
+    width:400px;
+    margin:20px auto;
+}
+
+.columns-container-10 {
+    border:2px solid #34495e;
+    background:#ecf0f1;
+    padding:10px;
+}
+
+.column-10{
+    border:2px solid #34495e;
+    background:#3498db;
+    padding:10px;
+    min-height:100px;
+    width:150px;
+    color:white;
+}
+
+.column-10-1{
+    float:left;
+}
+.column-10-2{
+    float:right;
+}
+
+.clearfix-10:after{
+    content:'';
+    display:table;
+    clear:both;
+
+    /* Эти три свойства что-бы увидеть
+         псевдораспорку (подсвется красным)*/
+    background:red;
+    width:100%;
+    height:10px;
+}
+
+/* ========================== 11 ====================== */
+.container-11{
+    box-shadow:0 0 2px #ccc;
+    width:450px;
+    margin:0 auto;
+}
+
+.header-11
+{
+    background:#ecf0f1;
+    padding:10px;
+}
+
+.sidebar-11 {
+    background:rgba(46, 204, 113, 0.8);
+    color:white;
+    padding:10px;
+    min-height:150px;
+    float:left;
+    width:150px;
+}
+
+.content-11{
+    background:#3498db;
+    color:white;
+    padding:10px;
+    min-height:100px;
+    margin-left:170px;
+}
+
+.footer-11{
+    background:#ecf0f1;
+    padding:10px;
+}
+
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* ========================== 12 ====================== */
+.clearfix-12:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.wrapper-12{
+    width:430px;
+    margin:10px auto;
+    box-shadow:0 0 2px #ccc;
+}
+
+.header-12{
+    margin-bottom:10px;
+    background:#34495e;
+    color:white;
+}
+
+.header-12 .colunm-12{
+    min-height:50px;
+    border-bottom:2px dashed #95a5a6;
+    background:rgba(192, 57, 43, 0.9);
+}
+
+.header-12 .layout-column-12-1{
+    float:left;
+    width:280px;
+}
+.header-12 .layout-column-12-2{
+    float:right;
+    width:130px;
+}
+
+.column-container-12{
+    margin-bottom:10px;
+}
+
+.column-container-12 .colunm-12{
+    border-bottom:2px dashed #95a5a6;
+    min-height:100px;
+    background:rgba(236, 240, 241, 0.9);
+    float:left;
+    width:130px;
+    margin-right:20px;
+}
+
+.column-container-12 .colunm-12:last-child{
+    margin-right:0;
+}
+
+.footer-12{
+    background:#34495e;
+    color:white;
+    min-height:50px;
+}
+
+/* ========================== 13 ====================== */
+.clearfix-13:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.wrapper-13{
+    width:430px;
+    margin:10px auto;
+    box-shadow:0 0 2px #ccc;
+}
+
+.header-13{
+    margin-bottom:10px;
+    background:#34495e;
+    color:white;
+}
+
+.header-13 .colunm-13{
+    min-height:50px;
+}
+
+.header-13 .layout-column-13-1{
+    float:left;
+    width:280px;
+}
+.header-13 .layout-column-13-2{
+    float:right;
+    width:130px;
+}
+
+.column-container-13{
+    margin-bottom:10px;
+}
+
+.column-container-13 .colunm-13{
+    min-height:100px;
+    background:rgba(236, 240, 241, 0.9);
+    float:left;
+    width:130px;
+    margin-right:20px;
+    /*border-radius:5px;*/
+}
+
+.column-container-13 .colunm-13:last-child{
+    margin-right:0;
+}
+
+.footer-13{
+    background:#34495e;
+    color:white;
+    min-height:50px;
+}
+
+/* Стили содержания */
+.wrapper-13 .logo{
+    padding:10px;
+}
+
+.wrapper-13 .logo p{
+    margin:0;
+}
+
+.header-13 .menu{
+    list-style:none;
+    padding:10px;
+    margin:0;
+}
+
+.header-13 .menu li{
+    padding:5px;
+    margin-bottom:5px;
+    text-align:center;
+    background:#2c3e50;
+    border-radius:5px;
+}
+
+.column-container-13 .feature{
+    padding:10px;
+    text-align:center;
+}
+
+/* ========================== 14 ====================== */
+.clearfix-14:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.header-14{
+    margin-bottom:10px;
+    background:#34495e;
+    color:white;
+}
+
+.header-14 .colunm-14{
+    min-height:50px;
+    background:rgba(192, 57, 43, 0.9);
+}
+
+.header-14 .layout-column-14-1{
+    float:left;
+    width:280px;
+}
+.header-14 .layout-column-14-2{
+    float:right;
+    width:130px;
+}
+
+.column-container-14{
+    margin-bottom:10px;
+}
+
+.column-container-14 .colunm-14{
+    min-height:100px;
+    background:rgba(236, 240, 241, 0.9);
+    float:left;
+    width:130px;
+    margin-right:20px;
+}
+
+.column-container-14 .colunm-14:last-child{
+    margin-right:0;
+}
+
+.footer-14{
+    background:#34495e;
+    color:white;
+    min-height:50px;
+}
+
+.layout-positioner-14{
+    border:2px dashed #3498db;
+    width:430px;
+    margin:0 auto;
+}
+
+.layout-positioner-14:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* ========================== 15 ====================== */
+.clearfix-15:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.header-15,
+.column-container-15 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.header-15{
+    margin-bottom:10px;
+    background:#34495e;
+    color:white;
+}
+
+.header-15 .colunm-15{
+    min-height:50px;
+}
+
+.header-15 .layout-column-15-1{
+    float:left;
+    width:280px;
+}
+.header-15 .layout-column-15-2{
+    float:right;
+    width:130px;
+}
+
+.column-container-15{
+    margin-bottom:10px;
+}
+
+.column-container-15 .colunm-15{
+    min-height:100px;
+    background:rgba(236, 240, 241, 0.9);
+    float:left;
+    width:130px;
+    margin-right:20px;
+}
+
+.column-container-15 .colunm-15:last-child{
+    margin-right:0;
+}
+
+.footer-15{
+    background:#34495e;
+    color:white;
+    min-height:50px;
+}
+
+.layout-positioner-15{
+    /*border:2px dashed #3498db;*/
+    width:430px;
+    margin:0 auto;
+}
+
+.layout-positioner-15:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* Стили содержания */
+.header-15 .logo{
+    padding:10px;
+}
+
+.footer-15 .logo{
+    padding:10px;
+}
+
+.header-15 .logo p{
+    margin:0;
+}
+
+.header-15 .menu{
+    margin:0;
+    padding:10px;
+    list-style:none;
+}
+.header-15 .menu li{
+    padding:5px;
+    margin-bottom:5px;
+    text-align:center;
+    background:#2c3e50;
+    border-radius:5px;
+}
+
+.column-container-15 .feature{
+    padding:10px;
+    text-align:center;
+    display:block;
+}
+
+/* ========================== 16 ====================== */
+/*
+    Используемые цвета:
+    #34495e - мокрый асфальт
+    #c0392b - красный
+    #3498DB - синий
+*/
+
+.header-16,
+.features-16,
+.footer-16{
+    color:white;
+}
+
+.header-16{
+    background:#34495e;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.column-16{
+    background:#c0392b;
+    padding:5px;
+    min-height:25px;
+}
+.column-header-16{
+    margin-bottom:10px
+}
+.column-menu-16{
+    margin-bottom:10px;
+    background:#3498DB;
+    padding-left:55px;
+}
+.column-promo1-16{
+    float:left;
+    width:160px;
+    height:50px;
+}
+.column-promo2-16{
+    float:right;
+    width:160px;
+    height:50px;
+}
+
+.features-16{
+    margin:10px;
+}
+.features-16 .column-f-16{
+    background:#3498DB;
+    padding:5px;
+    min-height:100px;
+}
+.column-f-l-16{
+    float:left;
+    margin-right:10px;
+    width:60px;
+}
+.column-f-m-16{
+    float:left;
+    width:180px;
+}
+.column-f-r-16{
+    float:right;
+    width:60px;
+}
+
+.footer-16{
+    background:#34495e;
+    min-height:30px;
+    padding-top:5px;
+    padding-left:10px;
+}
+
+.positioner-16{
+    /*border:2px dashed #ccc;*/
+    width:350px;
+    margin:0px auto;
+}
+
+.positioner-16:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* ========================== 17 ====================== */
+.container-17{
+    box-shadow:0 0 2px #ccc;
+    width:400px;
+    padding:10px;
+    margin:20px auto;
+    text-align:center;
+}
+
+.block-17{
+    border:2px solid #34495e;
+    margin:10px 5px;
+    background:#3498db;
+    color:white;
+    padding:10px;
+    width:70px;
+    display:inline-block;
+    text-align:left;
+    vertical-align:middle;
+}
+
+/* ========================== 18 ====================== */
+.container-18{
+    box-shadow:0 0 1px #ccc;
+    width:400px;
+    margin:20px auto;
+    padding:10px;
+}
+
+.container-18:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.block-18{
+    border:2px solid #34495e;
+    background:#3498db;
+    margin-right:10px;
+    margin-bottom:10px;
+    color:white;
+    padding:10px;
+    width:90px;
+    float:left;
+}
+
+.container-18-1{
+    box-shadow:0 0 1px #ccc;
+    width:400px;
+    margin:20px auto;
+    padding:10px;
+}
+
+.container-18-1:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.block-18-1{
+    border:2px solid #34495e;
+    background:#3498db;
+    margin-right:10px;
+    margin-bottom:20px;
+    color:white;
+    padding:10px;
+    width:90px;
+    /*float:left;*/
+    display:inline-block;
+    vertical-align:top;
+}
+
+/* ========================== 19 ====================== */
+
+.container-19{
+    width:400px;
+    margin:20px auto;
+}
+
+.catalog-19{
+    box-shadow:0 0 3px #ccc;
+    background:#ecf0f1;
+    width:400px;
+}
+
+.catalog-19 .item{
+    border:2px solid #2c3e50;
+    background:#3498db;
+    width:116px;
+    min-height:75px;
+    margin-bottom:20px;
+    margin-right:20px;
+    color:white;
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.catalog-19 .item:nth-child(3n){
+    margin-right:0;
+}
+
+/* ========================== 20 ====================== */
+
+.container-20-1{
+    width:400px;
+    margin:20px auto;
+}
+
+.catalog-20-1{
+    box-shadow:0 0 3px #ccc;
+    background:#ecf0f1;
+    width:400px;
+    font-size:0;
+}
+
+.catalog-20-1 .item{
+    border:2px solid #2c3e50;
+    background:#3498db;
+    width:116px;
+    min-height:75px;
+    margin-bottom:20px;
+    margin-right:20px;
+    color:white;
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+    font-size:16px;
+}
+
+.catalog-20-1 .item:nth-child(3n){
+    margin-right:0;
+}
+
+/* -------------- 2 -------------- */
+.container-20-2{
+    width:400px;
+    margin:20px auto;
+}
+
+.catalog-20-2{
+    box-shadow:0 0 3px #ccc;
+    background:#ecf0f1;
+    width:400px;
+    /*font-size:0;*/
+}
+
+.catalog-20-2 .item{
+    border:2px solid #2c3e50;
+    background:#3498db;
+    width:116px;
+    min-height:75px;
+    margin-bottom:20px;
+    margin-right:15px;
+    color:white;
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+
+    /*font-size:16px;*/
+}
+
+.catalog-20-2 .item:nth-child(3n){
+    margin-right:0;
+}
+
+/* ========================== 21 ====================== */
+.gallery-21{
+    width:450px;
+    font-size:0;
+    box-shadow:0 0 3px #ccc;
+    text-align:center;
+    padding-top:10px;
+}
+
+.gallery-21 .title{
+    font-size:12px;
+    text-align:left;
+}
+
+.gallery-21 .item{
+    width:120px;
+    display:inline-block;
+    margin:0 10px;
+    margin-bottom:10px;
+}
+
+.gallery-21 .frame{
+    border:1px solid black;
+    padding-top:10px;
+    background:#ECF0F1;
+}
+
+.gallery-21 .image{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    height:70px;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+}
+
+.image-1{
+    background-color:#2ECC71;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_box.png');
+}
+.gallery-21 .image-2{
+    background-color:#3498DB;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_fish.png');
+}
+.gallery-21 .image-3{
+    background-color:#f1c40f;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_purr.png');
+}
+.gallery-21 .image-4{
+    background-color:#E67E22;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_walk.png');
+}
+.gallery-21 .image-5{
+    background-color:#E74C3C;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_drunk.png');
+}
+
+.gallery-21 .date{
+    font-size:11px;
+    font-style:italic;
+    padding:5px;
+    text-align:left;
+}

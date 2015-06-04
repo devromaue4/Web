@@ -1,0 +1,400 @@
+﻿
+body{
+    font-family: "Myriad Pro";
+    margin:0;
+    padding:0;
+}
+
+/*  цвета
+    #262626 - темный мокрый асфальт
+    #2a2a2a - мокрый асфальт
+    ea6660  - красно-оранжевый
+*/
+
+/* helpers */
+.outline{
+    outline:1px dashed red;
+}
+
+.positioner{
+    width:1110px;
+    margin:0 auto;
+}
+
+/* clearfix */
+.positioner:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.header .positioner{
+    background:#262626;
+}
+
+.titlle .positioner{
+    background:#2a2a2a;
+}
+
+.features .positioner{
+    height:369px;
+    background:#f8f8f8;
+}
+
+/*general*/
+.header{
+    height:100px;
+    background:#262626;
+}
+
+.logo{
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-image:url('../images/firstverst1/logo.png');
+    width:110px;
+    height:50px;
+    padding-top:50px;
+    float:left;
+}
+
+.menu{
+    margin:0;
+    padding:0;
+    float:right;
+    text-transform: uppercase;
+    font-weight:bold;
+    list-style:none;
+    color:white;
+    padding-top:45px;
+    padding-bottom:36px;
+}
+
+.menu li{
+    display:inline-block;
+    padding-left:52px;
+}
+.menu li:first-child{
+    padding-left:0;
+}
+
+.menu a{
+    text-decoration:none;
+    color:white;
+}
+
+.menu a:hover,
+.menu .active{
+    color:#ea6660;
+}
+
+.titlle{
+    height:395px;
+    color: rgb(217, 217, 217);
+    text-align:center;
+    font-size: 60px;
+    background:#2a2a2a;
+}
+
+.titlle p{
+    margin:0;
+    padding-top:50px;
+}
+
+.titlle p.title-text{
+    font-size: 40px;
+    line-height: 1.25;
+    padding-top:15px;
+    padding-left:30px;
+    padding-right:30px;
+    /*padding-bottom:65px;*/
+}
+
+.button-link{
+    display:block;
+    text-decoration:none;
+    font-size: 14px;
+    line-height: 3.571;
+    text-transform: uppercase;
+	background-color: #ea6660;
+    font-weight:bold;
+    text-align: center;
+    border-radius:6px;
+    width:198px;
+	height: 50px;
+	color: white;
+    margin:54px auto;
+}
+
+.button-link:hover{
+    background-color: #fbafab;
+}
+
+.features {
+    background:#f8f8f8;
+}
+
+.layout-column {
+    display:inline-block;
+    padding-top:90px;
+    padding-left:45px;
+
+    /*Вероятней всего здесь нужно задать ширину в процентах.
+      Что-бы блоки могли менять свой размер в зависимости от размера окна браузера.
+    width: %;*/
+}
+
+.layout-column .image{
+    background-image:url('../images/firstverst1/features.png');
+    width:47px;
+    height:66px;
+    margin:0 auto;
+}
+
+.layout-column .image-2{
+    background-position:-48px 0;
+    width:66px;
+    height:66px;
+}
+.layout-column .image-3{
+    background-position:-112px 0;
+    width:64px;
+    height:63px;
+}
+.layout-column .image-4{
+    background-position:-178px 0;
+    width:55px;
+    height:65px;
+}
+
+.layout-column .title{
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+    line-height: 3.333;
+    text-align: center;
+    height:50px;
+}
+
+.layout-column .text{
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+    line-height: 1.714;
+    text-align: center;
+    width: 219px;
+    height: 68px;
+}
+
+.content {
+    margin:0;
+}
+
+.content h2{
+    margin:0;
+    padding-top:45px;
+    font-size: 30px;
+    color: rgb(97, 97, 97);
+    line-height: 2;
+    text-align: center;
+}
+
+.content p{
+    margin:0;
+    padding-bottom:60px;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    line-height: 1.2;
+    text-align: center;
+    /*width: 626px;*/
+    height: 20px;
+}
+
+.sub-menu{
+    list-style:none;
+    font-size: 12px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color: white;
+    text-align:center;
+    margin-top:0;
+    padding-left:0;
+    margin-bottom:20px;
+}
+
+.sub-menu li{
+    display:inline-block;
+}
+
+.sub-menu a {
+    text-decoration:none;
+    color:white;
+    background-color: #ea6660;
+    border-radius:6px;
+    padding:13px 20px;
+    padding-bottom:9px;
+    margin-right:8px;
+    display:block;
+}
+
+.sub-menu a:hover,
+.sub-menu .active{
+    background:#2a2a2a;
+}
+
+.content .preview-image{
+    	  /*Вероятней всего здесь нужно задать ширину в процентах.
+      Что-бы блоки могли менять свой размер в зависимости от размера окна браузера.
+    width: %;*/
+	/*картинку надо задавать на всю ширину и обрезать ее в низу
+	что-бы картинка была резиновой*/
+
+    display:inline-block;
+    width: 270px;
+    height: 220px;
+    background-image:url('../images/firstverst1/shape1.png');
+
+    margin-top:4px;
+    margin-right:6px; 
+}
+
+.content .preview-image:nth-child(4n){
+    margin-right:0;
+}
+
+.content .image-2{
+    background-image:url('../images/firstverst1/shape2.png');
+}
+.content .image-3{
+    background-image:url('../images/firstverst1/shape3.png');
+}
+.content .image-4{
+    background-image:url('../images/firstverst1/shape4.png');
+}
+.content .image-5{
+    background-image:url('../images/firstverst1/shape5.png');
+}
+.content .image-6{
+    background-image:url('../images/firstverst1/shape6.png');
+}
+.content .image-7{
+    background-image:url('../images/firstverst1/shape7.png');
+}
+.content .image-8{
+    background-image:url('../images/firstverst1/shape8.png');
+}
+.content .image-9{
+    background-image:url('../images/firstverst1/shape9.png');
+}
+.content .image-10{
+    background-image:url('../images/firstverst1/shape10.png');
+}
+.content .image-11{
+    background-image:url('../images/firstverst1/shape11.png');
+}
+.content .image-12{
+    background-image:url('../images/firstverst1/shape12.png');
+}
+
+.footer,
+.footer .positioner{
+    background:#2a2a2a;
+}
+
+.footer{
+    margin-top:75px;
+}
+
+.footer h2{
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+    line-height: 2;
+    text-align: center;
+    padding-top:45px;
+    margin:0;
+}
+
+.footer p{
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+    line-height: 1.2;
+    text-align: center;
+    margin:0;
+}
+
+.footer .contact{
+    color: rgb(190, 190, 190);
+    font-size: 14px;
+    line-height: 1.714;
+    padding-left:20px;
+    position:relative;
+    display:inline-block;
+    left:25%;
+    margin-top:20px;
+    margin-left:36px;
+}
+
+.footer .contact .icon{
+    background:url(../images/firstverst1/contacts.png) no-repeat;
+    width:8px;
+    height:10px;
+    position:absolute;
+    left:6px;
+    top:5px;
+}
+.footer .contact .icon2{
+    background:url(../images/firstverst1/contacts.png) no-repeat -8px 0;
+    width:10px;
+    height:10px;
+    position:absolute;
+    left:1px;
+    top:5px;
+}
+
+.footer .social-network{
+    width:190px;
+    position:relative; 
+    left:42%;
+    margin-top:25px;
+    margin-bottom:55px;
+}
+
+.footer .social-icon{
+    background:url(../images/firstverst1/social.png) no-repeat;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    margin-right:5px;
+}
+
+.footer .icon-facebook{
+    background:url(../images/firstverst1/social.png) no-repeat -37px 0;
+}
+.footer .icon-twitter{
+    background:url(../images/firstverst1/social.png) no-repeat -74px 0;
+}
+.footer .icon-dribble{
+    background:url(../images/firstverst1/social.png) no-repeat -111px 0;
+}
+.footer .icon-pinterest{
+    background:url(../images/firstverst1/social.png) no-repeat -148px 0;
+}
+
+.footer .social-network a{
+    border-radius:14px;
+}
+.footer .social-network a:hover{
+   background-color: #fbafab;
+}
+
+.copyright .positioner,
+.copyright{
+    background:#262626;
+}
+
+.copyright p{
+    font-size: 14px;
+    color: rgb(190, 190, 190);
+    line-height: 1.714;
+    margin:0;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:40%;
+}
